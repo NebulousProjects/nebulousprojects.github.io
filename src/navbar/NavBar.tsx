@@ -25,7 +25,6 @@ function NavBarButton(input: SwapStyleInput) {
   } else {
     return <button 
       className="navbar-button-text2" 
-      onClick={{}}
       style={{ color: Colors.black }}
     >{ input.text }</button>
   }
