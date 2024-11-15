@@ -1,0 +1,55 @@
+.navbar-main-left {
+    display: flex;
+    position: absolute;
+    align-content: center;
+    flex-direction: row;
+
+    top: 14px;
+    left: 14px;
+    height: 2em;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.navbar-main-right {
+    display: flex;
+    position: absolute;
+    align-content: center;
+    flex-direction: row;
+
+    top: 14px;
+    right: 14px;
+    height: 2em;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.navbar-header-text1 {
+    font-size: large;
+    font-weight: bolder;
+    align-content: center;
+}
+
+.navbar-header-text2 {
+    font-size: large;
+    font-weight: 400;
+    align-content: center;
+}
+
+.navbar-button-text1 {
+    font-size: large;
+    font-weight: bolder;
+    align-content: center;
+
+    padding: 0.25em;
+    border-radius: 8px;
+}
+
+.navbar-button-text2 {
+    font-size: large;
+    font-weight: 400;
+    align-content: center;
+
+    padding: 0.25em;
+    border-radius: 8px;
+}
