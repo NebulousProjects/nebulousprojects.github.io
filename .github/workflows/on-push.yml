@@ -15,7 +15,7 @@ permissions:
   id-token: write
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -25,6 +25,11 @@ jobs:
           node-version: '20.x'
       - run: npm install
       - run: npm run build
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Upload entire repository
+          path: './build/'
 
   deploy:
     needs: build
