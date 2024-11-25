@@ -1,7 +1,7 @@
-=================== Outline =====================
+=================== Outline ===================
 [x] Navbar: Build desktop navbar
 [x] Navbar: Build merged navbar for when window is below a min width
-[ ] Navbar: Make navbar navigate
+[x] Navbar: Make navbar navigate
 [ ] Homepage: Build top level with image background has title + subtitle + fades into below
 [ ] Homepage: Slots to show background stuffs; game servers, server/infra, networking.
 [ ] Homepage: Footer w/ copywrite
@@ -13,3 +13,10 @@
 [ ] Contacts: Email form
 [ ] Contacts: Footer w/ copywrite
 [ ] General: Icon + title
+
+==================== Content ==================
+[ ] Homepage
+[ ] Contact
+[ ] Projects
+
+===================== Bugs ====================

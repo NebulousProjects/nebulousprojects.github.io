@@ -33,7 +33,7 @@ function NavBarButton(input: SwapStyleInput) {
     return <button 
       className="navbar-button-text2 remove-button-background" 
       style={{ color: Colors.black }}
-      onClick={() => nav(input.location)}
+      onClick={() => nav("/" + input.location)}
     >{ input.text }</button>
   }
 }
