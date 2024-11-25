@@ -22,6 +22,9 @@
     height: 2em;
     border-radius: 15px;
     padding: 10px;
+    
+    /* font-size: large;
+    font-weight: bolder; */
 }
 
 .navbar-header-text1 {
@@ -37,19 +40,64 @@
 }
 
 .navbar-button-text1 {
-    font-size: large;
-    font-weight: bolder;
+    font-size: large !important;
+    font-weight: bolder !important;
     align-content: center;
 
-    padding: 0.25em;
+    padding: 0.25em !important;
     border-radius: 8px;
 }
 
 .navbar-button-text2 {
-    font-size: large;
-    font-weight: 400;
+    font-size: large !important;
+    font-weight: 400 !important;
     align-content: center;
 
-    padding: 0.25em;
+    padding: 0.25em !important;
     border-radius: 8px;
+}
+
+.navbar-burger {
+    vertical-align: middle;
+    margin-top: 0.1em;
+    height: 2em;
+}
+
+.navbar-burger-list {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    
+    top: 3.25em;
+    right: 0px;
+    width: 10em;
+    padding: 0.5em;
+    border-radius: 10px;
+
+    font-size: large;
+    font-weight: bolder;
+}
+
+.remove-button-background {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+@media (max-width: 31em) {
+/* @media (max-width: 100em) { */
+    .navbar-split-only {
+        display: none !important;
+    }
+}
+
+@media (min-width: 31em) {
+/* @media (min-width: 100em) { */
+    .navbar-merged-only {
+        display: none !important;
+    }
 }

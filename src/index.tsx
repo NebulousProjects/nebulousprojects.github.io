@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom/client';
 import logo from './logo.svg';
 import { NavBar, Page } from "./navbar/NavBar";
 import './index.css';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
       <NavBar page={ Page.Home } />
+
+      {/* Random react bs */}
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -26,11 +29,19 @@ function App() {
   );
 }
 
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App/>
+  }
+]);
+
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
