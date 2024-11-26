@@ -6,8 +6,8 @@
 [x] Homepage: Slots to show background stuffs; game servers, server/infra, networking.
 [x] Projects: Similar top level to Homepage
 [x] Projects: Slots to show projects stuffs; Project Storm/UGS, Project Helios, Open Source work
-[ ] Contacts: Similar top level to Homepage
-[ ] Contacts: Contact information
+[x] Contacts: Similar top level to Homepage
+[x] Contacts: Contact information
 [ ] Contacts: Email form
 [ ] General: Icon + title
 
@@ -21,3 +21,4 @@
 
 ===================== Bugs ====================
 [x] Attach navbars to corners
+[ ] Contact form CSS on mobile

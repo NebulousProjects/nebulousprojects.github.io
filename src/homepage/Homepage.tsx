@@ -1,5 +1,4 @@
 import { NavBar, Page } from "../navbar/NavBar";
-
 import "./Homepage.css";
 import flavor from "../image/minecraft-flavor.png";
 import { Colors } from "../Colors";
