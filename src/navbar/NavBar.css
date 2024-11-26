@@ -1,6 +1,6 @@
 .navbar-main-left {
     display: flex;
-    position: absolute;
+    position: fixed;
     align-content: center;
     flex-direction: row;
 
@@ -11,11 +11,12 @@
     padding: 10px;
 
     z-index: 999;
+    box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.5);
 }
 
 .navbar-main-right {
     display: flex;
-    position: absolute;
+    position: fixed;
     align-content: center;
     flex-direction: row;
 
@@ -26,6 +27,7 @@
     padding: 10px;
 
     z-index: 999;
+    box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.5);
     
     /* font-size: large;
     font-weight: bolder; */
@@ -81,6 +83,7 @@
 
     font-size: large;
     font-weight: bolder;
+    box-shadow: -5px 5px 5px 0px rgba(0,0,0,0.5);
 }
 
 .remove-button-background {
