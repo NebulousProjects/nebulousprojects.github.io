@@ -15,8 +15,12 @@
 [ ] General: Icon + title
 
 ==================== Content ==================
-[ ] Homepage
-[ ] Contact
-[ ] Projects
+[ ] Homepage text
+[ ] Contact text
+[ ] Projects text
+[ ] Homepage flavor image
+[ ] Contact flavor image
+[ ] Projects flavor image
 
 ===================== Bugs ====================
+[ ] Attach navbars to corners

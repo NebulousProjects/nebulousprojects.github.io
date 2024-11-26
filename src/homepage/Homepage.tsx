@@ -1,25 +1,24 @@
 import { NavBar, Page } from "../navbar/NavBar";
-import logo from "../logo.svg";
+
 import "./Homepage.css";
+import flavor from "../image/minecraft-flavor.png";
+import { Colors } from "../Colors";
 
 export function Homepage() {
-    return <div className="App">
+    return <div style={{ backgroundColor: Colors.blue }}>
         <NavBar page={ Page.Home } />
+        
+        {/* Flavor image + title */}
+        <div className="flavor-img">
+            <img src={flavor} alt="" style={{ height: "140vh" }} />
 
-        {/* Random react bs */}
-        <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-            Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-        >
-            Learn React
-        </a>
-        </header>
+            <div className="title-text">Daylin</div>
+            <div className="title-text2">Software House</div>
+            <div className="title-subtext">Infrastructure | Servers | Games</div>
+        </div>
+        
+        {/* Company topics */}
+
+        {/* Footer */}
     </div>;
 }

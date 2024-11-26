@@ -9,6 +9,8 @@
     height: 2em;
     border-radius: 15px;
     padding: 10px;
+
+    z-index: 999;
 }
 
 .navbar-main-right {
@@ -22,6 +24,8 @@
     height: 2em;
     border-radius: 15px;
     padding: 10px;
+
+    z-index: 999;
     
     /* font-size: large;
     font-weight: bolder; */

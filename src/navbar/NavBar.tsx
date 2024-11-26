@@ -78,8 +78,8 @@ export function NavBar(input: NavBarInput) {
 
   return <>
     <div className="navbar-main-left navbar-split-only" style={{ backgroundColor: Colors.offwhite }} >
-      <div className="navbar-header-text1" >Nebulous</div>
-      <div style={{ width: "0.5em" }} />
+      <div className="navbar-header-text1" >Daylin</div>
+      <div style={{ width: "0.3em" }} />
       <div className="navbar-header-text2" >Software House</div>
     </div>
 
@@ -89,8 +89,8 @@ export function NavBar(input: NavBarInput) {
 
     <div className="navbar-main-right navbar-merged-only" style={{ backgroundColor: Colors.offwhite }} >
       {/* Title */}
-      <div className="navbar-header-text1" >Nebulous</div>
-      <div style={{ width: "0.5em" }} />
+      <div className="navbar-header-text1" >Daylin</div>
+      <div style={{ width: "0.3em" }} />
       <div className="navbar-header-text2" >Software House</div>
       <div style={{ width: "0.5em" }} />
 
