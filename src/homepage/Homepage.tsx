@@ -4,6 +4,7 @@ import "./Homepage.css";
 import flavor from "../image/minecraft-flavor.png";
 import { Colors } from "../Colors";
 import { TopicList } from "../utils/Topics";
+import { Header } from "../utils/Header";
 
 export function Homepage() {
     let topics = [
@@ -28,13 +29,12 @@ export function Homepage() {
         <NavBar page={ Page.Home } />
         
         {/* Flavor image + title */}
-        <div className="flavor-img">
-            <img src={flavor} alt="" style={{ height: "140vh" }} />
-
-            <div className="title-text">Daylin</div>
-            <div className="title-text2">Software House</div>
-            <div className="title-subtext">Infrastructure | Servers | Games</div>
-        </div>
+        <Header
+            title="Daylin"
+            subtitle="Software House"
+            description="Infrastructure | Servers | Games"
+            image={flavor}
+        />
         
         {/* Company topics */}
         <TopicList topics={topics}/>

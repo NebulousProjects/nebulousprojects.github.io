@@ -4,8 +4,8 @@
 [x] Navbar: Make navbar navigate
 [x] Homepage: Build top level with image background has title + subtitle + fades into below
 [x] Homepage: Slots to show background stuffs; game servers, server/infra, networking.
-[ ] Projects: Similar top level to Homepage
-[ ] Projects: Slots to show projects stuffs; Project Storm/UGS, Project Helios, Open Source work
+[x] Projects: Similar top level to Homepage
+[x] Projects: Slots to show projects stuffs; Project Storm/UGS, Project Helios, Open Source work
 [ ] Contacts: Similar top level to Homepage
 [ ] Contacts: Contact information
 [ ] Contacts: Email form
