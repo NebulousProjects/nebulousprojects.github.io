@@ -3,24 +3,21 @@
 [x] Navbar: Build merged navbar for when window is below a min width
 [x] Navbar: Make navbar navigate
 [x] Homepage: Build top level with image background has title + subtitle + fades into below
-[ ] Homepage: Slots to show background stuffs; game servers, server/infra, networking.
-[ ] Homepage: Footer w/ copywrite
+[x] Homepage: Slots to show background stuffs; game servers, server/infra, networking.
 [ ] Projects: Similar top level to Homepage
 [ ] Projects: Slots to show projects stuffs; Project Storm/UGS, Project Helios, Open Source work
-[ ] Projects: Footer w/ copywrite
 [ ] Contacts: Similar top level to Homepage
 [ ] Contacts: Contact information
 [ ] Contacts: Email form
-[ ] Contacts: Footer w/ copywrite
 [ ] General: Icon + title
 
 ==================== Content ==================
 [ ] Homepage text
 [ ] Contact text
 [ ] Projects text
-[ ] Homepage flavor image
-[ ] Contact flavor image
-[ ] Projects flavor image
+[ ] Homepage flavor images
+[ ] Contact flavor images
+[ ] Projects flavor images
 
 ===================== Bugs ====================
 [ ] Attach navbars to corners
