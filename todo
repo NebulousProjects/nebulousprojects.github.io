@@ -2,7 +2,7 @@
 [x] Navbar: Build desktop navbar
 [x] Navbar: Build merged navbar for when window is below a min width
 [x] Navbar: Make navbar navigate
-[ ] Homepage: Build top level with image background has title + subtitle + fades into below
+[x] Homepage: Build top level with image background has title + subtitle + fades into below
 [ ] Homepage: Slots to show background stuffs; game servers, server/infra, networking.
 [ ] Homepage: Footer w/ copywrite
 [ ] Projects: Similar top level to Homepage
